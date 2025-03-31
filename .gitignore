@@ -1,0 +1,9 @@
+*.bin
+*.pt
+*.pkl
+__pycache__/
+.ipynb_checkpoints/
+.env
+*.log
+*.zip
+.DS_Store

@@ -1,6 +1,7 @@
 # 基于预训练的RoBERTa模型，实现金融领域中文文本的情感二分类
-适用于新闻、公告等金融文本的情绪判断。
-本项目基于bert_seq2seq（https://github.com/920232796/bert_seq2seq）。
+适用于新闻、公告等金融文本的情绪判断 。
+
+本项目基于bert_seq2seq (https://github.com/920232796/bert_seq2seq) 。
 #  项目结构
 
 ```bash

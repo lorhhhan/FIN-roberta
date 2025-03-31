@@ -1,12 +1,18 @@
-本项目基于预训练的RoBERTa模型进行金融领域中文文本的情感分类。
+# 基于预训练的RoBERTa模型，实现金融领域中文文本的情感二分类
+适用于新闻、公告等金融文本的情绪判断。
+#  项目结构
 
-. ├── train.py # 模型训练脚本
-  ├── test.py # 模型推理脚本，读取 CSV 写入预测结果
-  ├── sentiment_model.bin # 已训练好的模型（本地使用，不上传）
-  ├── bert_seq2seq/ # 模型与Tokenizer定义模块
-  ├── state_dict/ # 包含预训练模型的 vocab.txt
-  ├── data/ 
-	├── train.csv # 自行准备的训练数据（text + label） 
-	└── test.csv # 待预测的测试数据（text）
+```bash
+.
+├── train.py                # 模型训练脚本
+├── test.py                 # 模型推理脚本（读取CSV输出预测结果）
+├── sentiment_model.bin     # 已训练模型（本地使用，未上传）
+├── bert_seq2seq/           # 模型与Tokenizer定义模块
+├── state_dict/             # 预训练模型词表（roberta_wwm_pytorch_model.bin未上传）
+├── model/		    # config参数
+├── .ipynb_checkpoints/             
+└── data/		    #数据集
+    ├── train.csv          
+    └── test.csv            
 
 本仓库未包含 .bin 模型文件

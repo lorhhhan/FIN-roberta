@@ -11,8 +11,7 @@
 ├── sentiment_model.bin     # 已训练模型（本地使用，未上传）
 ├── bert_seq2seq/           # 模型与Tokenizer定义模块
 ├── state_dict/             # 预训练模型词表（roberta_wwm_pytorch_model.bin未上传）
-├── model/		    # config参数
-├── .ipynb_checkpoints/             
+├── model/		    # config参数            
 └── data/		    #数据集
     ├── train.csv          
     └── test.csv            
